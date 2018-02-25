@@ -2,9 +2,9 @@ package com.codecool.api;
 
 public class Skirt extends Clothes {
 
-    boolean mini;
+    private boolean mini;
 
-    public Skirt(String name, String size, String type) {
+    Skirt(String name, String size, String type) {
         super(name, size, type);
         this.mini = false;
     }
@@ -17,5 +17,13 @@ public class Skirt extends Clothes {
                 ", size='" + size + '\'' +
                 ", type='" + type + '\'' +
                 '}';
+    }
+
+    public boolean isMini() {
+        return mini;
+    }
+
+    public void setMini(boolean mini) {
+        this.mini = mini;
     }
 }

@@ -11,4 +11,16 @@ public abstract class Clothes {
         this.size = size;
         this.type = type;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public String getType() {
+        return type;
+    }
 }

@@ -2,9 +2,9 @@ package com.codecool.api;
 
 public class Shirts extends Clothes {
 
-    boolean sleevesLong;
+    private boolean sleevesLong;
 
-    public Shirts(String name, String size, String type) {
+    Shirts(String name, String size, String type) {
         super(name, size, type);
         this.sleevesLong = true;
     }
@@ -17,5 +17,14 @@ public class Shirts extends Clothes {
                 ", size='" + size + '\'' +
                 ", type='" + type + '\'' +
                 '}';
+    }
+
+    public void setSleevesLong(boolean sleevesLong) {
+        this.sleevesLong = sleevesLong;
+    }
+
+    public boolean isSleevesLong() {
+
+        return sleevesLong;
     }
 }
