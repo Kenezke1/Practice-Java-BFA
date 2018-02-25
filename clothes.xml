@@ -1,0 +1,22 @@
+<Clothes>
+    <Clothe>
+        <Name>kék ing</Name>
+        <Size>M</Size>
+        <Type>Shirt</Type>
+    </Clothe>
+    <Clothe>
+        <Name>fekete szoknya</Name>
+        <Size>S</Size>
+        <Type>Skirt</Type>
+    </Clothe>
+    <Clothe>
+        <Name>fehért ing</Name>
+        <Size>L</Size>
+        <Type>Shirt</Type>
+    </Clothe>
+    <Clothe>
+        <Name>Zöld nadrág</Name>
+        <Size>L</Size>
+        <Type>Pants</Type>
+    </Clothe>
+</Clothes>
