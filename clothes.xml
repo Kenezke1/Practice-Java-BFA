@@ -19,4 +19,44 @@
         <Size>L</Size>
         <Type>Pants</Type>
     </Clothe>
+    <Clothe>
+        <Name>fekete nadrág</Name>
+        <Size>M</Size>
+        <Type>Pants</Type>
+    </Clothe>
+    <Clothe>
+        <Name>farmer nadrág</Name>
+        <Size>L</Size>
+        <Type>Pants</Type>
+    </Clothe>
+    <Clothe>
+        <Name>Virágos szoknya</Name>
+        <Size>L</Size>
+        <Type>Skirt</Type>
+    </Clothe>
+    <Clothe>
+        <Name>Szürke ing</Name>
+        <Size>L</Size>
+        <Type>Shirt</Type>
+    </Clothe>
+    <Clothe>
+        <Name>fekete blúz</Name>
+        <Size>M</Size>
+        <Type>Blouse</Type>
+    </Clothe>
+    <Clothe>
+        <Name>fehér blúz</Name>
+        <Size>L</Size>
+        <Type>Blouse</Type>
+    </Clothe>
+    <Clothe>
+        <Name>Virágos blúz</Name>
+        <Size>L</Size>
+        <Type>Blouse</Type>
+    </Clothe>
+    <Clothe>
+        <Name>Szürke blúz</Name>
+        <Size>L</Size>
+        <Type>Blouse</Type>
+    </Clothe>
 </Clothes>

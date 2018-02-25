@@ -46,6 +46,10 @@ public class ClothesMenager {
                         clothes = new Pants(name,size,type);
                         clothesList.add(clothes);
                     }
+                    else if(type.equals("Blouse")){
+                        clothes = new Blouses(name,size,type);
+                        clothesList.add(clothes);
+                    }
                 }
             }
         }
