@@ -11,7 +11,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClothesMenager {
+public class ClothesManager {
 
 
     public List<Clothes> loadClothes(){

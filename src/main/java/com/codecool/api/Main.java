@@ -9,6 +9,7 @@ public class Main {
     static List< Hanger> hangers = new ArrayList<Hanger>();
 
     public static void main(String[] args) {
+<<<<<<< HEAD
 
         ClothesMenager cm = new ClothesMenager();
         clothesList2.addAll(cm.loadClothes());
@@ -27,6 +28,9 @@ public class Main {
         for (Hanger h:hangers) {
             System.out.println(h.toString());
         }
+=======
+        ClothesManager cm = new ClothesManager();
+>>>>>>> 60dcadd5623adf08c47c24ea16721b983daf1e2b
 
 
     }
