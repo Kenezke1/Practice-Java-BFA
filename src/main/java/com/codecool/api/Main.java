@@ -6,32 +6,25 @@ import java.util.List;
 public class Main {
 
     static List<Clothes> clothesList2 = new ArrayList<Clothes>();
-    static List< Hanger> hangers = new ArrayList<Hanger>();
+    static List<SimpleHanger> hangers = new ArrayList<SimpleHanger>();
 
     public static void main(String[] args) {
-<<<<<<< HEAD
-
-        ClothesMenager cm = new ClothesMenager();
+        ClothesManager cm = new ClothesManager();
         clothesList2.addAll(cm.loadClothes());
         for (Clothes clothes:clothesList2) {
             if(clothes instanceof Pants) {
-                hangers.add(new SimpleHanger("wood", (Pants)clothes));
+                hangers.add(new SimpleHanger("wood", clothes));
             }
             else if(clothes instanceof Shirts){
-                hangers.add(new SimpleHanger("wood",(Shirts)clothes));
+                hangers.add(new SimpleHanger("wood",clothes));
             }
             else if(clothes instanceof Skirt){
-                hangers.add(new SimpleHanger("wood",(Skirt)clothes));
+                hangers.add(new SimpleHanger("wood",clothes));
             }
         }
-        System.out.println(hangers.size());
-        for (Hanger h:hangers) {
-            System.out.println(h.toString());
+        for (SimpleHanger h:hangers) {
+            System.out.println(h.getClothe().toString());
         }
-=======
-        ClothesManager cm = new ClothesManager();
->>>>>>> 60dcadd5623adf08c47c24ea16721b983daf1e2b
-
 
     }
 }

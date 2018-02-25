@@ -2,33 +2,15 @@ package com.codecool.api;
 
 public class SimpleHanger extends Hanger {
 
-    private Pants pants;
-    private Shirts shirt;
-    private Skirt skirt;
+    private Object clothe;
 
-     SimpleHanger(String material,Pants pants) {
+
+    SimpleHanger(String material, Object clothe) {
         super(material);
-        this.pants = pants;
+        this.clothe = clothe;
     }
 
-
-     SimpleHanger(String material, Shirts shirt){
-         super(material);
-         this.shirt = shirt;
-     }
-
-     SimpleHanger(String material, Skirt skirt){
-         super(material);
-         this.skirt = skirt;
-
-     }
-
-    @Override
-    public String toString() {
-        return "SimpleHanger{" +
-                "pants=" + pants.toString() +
-                ", shirt=" + shirt.toString() +
-                ", skirt=" + skirt.toString() +
-                '}';
+    public Object getClothe() {
+        return clothe;
     }
 }
