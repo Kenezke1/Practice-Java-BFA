@@ -2,15 +2,18 @@ package com.codecool.api;
 
 public class SimpleHanger extends Hanger {
 
-    private Object clothe;
+    private Clothes clothe;
 
 
-    SimpleHanger(String material, Object clothe) {
+    SimpleHanger(String material) {
         super(material);
-        this.clothe = clothe;
+        this.clothe = null;
     }
 
-    public Object getClothe() {
+    public Clothes getClothe() {
         return clothe;
+    }
+    public  void putOnHanger(Clothes obj){
+
     }
 }
