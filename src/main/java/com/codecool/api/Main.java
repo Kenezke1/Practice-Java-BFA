@@ -13,13 +13,13 @@ public class Main {
         clothesList2.addAll(cm.loadClothes());
         for (Clothes clothes:clothesList2) {
             if(clothes instanceof Pants) {
-                hangers.add(new SimpleHanger("wood", clothes));
+                hangers.add(new SimpleHanger("wood"));
             }
             else if(clothes instanceof Shirts){
-                hangers.add(new SimpleHanger("wood",clothes));
+                hangers.add(new SimpleHanger("wood"));
             }
             else if(clothes instanceof Skirt){
-                hangers.add(new SimpleHanger("wood",clothes));
+                hangers.add(new SimpleHanger("wood"));
             }
         }
         for (SimpleHanger h:hangers) {

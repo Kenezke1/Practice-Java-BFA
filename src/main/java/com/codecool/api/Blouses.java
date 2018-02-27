@@ -1,6 +1,6 @@
 package com.codecool.api;
 
-public class Blouses extends Clothes {
+public class Blouses extends Overclothes {
 
     private boolean isViragos;
 
