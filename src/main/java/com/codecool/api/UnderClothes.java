@@ -1,26 +1,9 @@
 package com.codecool.api;
 
-public abstract class UnderClothes {
+public abstract class UnderClothes extends Clothes{
 
-    String name;
-    String size;
-    String type;
 
-    UnderClothes(String name, String size, String type){
-        this.name = name;
-        this.size = size;
-        this.type = type;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public String getSize() {
-        return size;
-    }
-
-    public String getType() {
-        return type;
+    public UnderClothes(String name, String size) {
+        super(name, size);
     }
 }

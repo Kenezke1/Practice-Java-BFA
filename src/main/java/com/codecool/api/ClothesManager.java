@@ -1,4 +1,4 @@
-package com.codecool.api;
+/*package com.codecool.api;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -59,3 +59,4 @@ public class ClothesManager {
         return clothesList;
     }
 }
+*/
